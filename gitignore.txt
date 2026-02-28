@@ -1,0 +1,7 @@
+*.pbix
+*.dtsx
+*.user
+*.suo
+bin/
+obj/
+.vs/
