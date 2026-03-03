@@ -1,4 +1,4 @@
-# Customer Behavior Analytics (Synerise) — End-to-End BI Project
+# Customer Journey Conversion Analytics Pipeline (Power BI)
 
 ##Dashboard preview
 
@@ -22,7 +22,7 @@ Business question: How can we increase customer conversion and revenue?
 ## Architecture
 Power Query → SQL Server (DW) + SSIS (orchestration) → Power BI semantic model (DAX) → Power BI dashboard
 
-## Development was executed on a one-month slice due to local compute constraints, but the model and pipeline are designed to scale to the full dataset in a production environment.
+Development was executed on a one-month slice due to local compute constraints, but the model and pipeline are designed to scale to the full dataset in a production environment.
 
 ## Technology stack
 - SQL Server (dimensional data warehouse / star schema)
